@@ -1,0 +1,19 @@
+$navbar-default-bg: #336699;
+$light-orange: #eca014;
+$navbar-default-color: $light-orange;
+
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#logo{
+  margin-top:10px;
+  margin-bottom: 10px;
+  float:left;
+  margin-right:10px;
+  font-size: 2em;
+  color:#ff0000;
+  text-transform:uppercase;
+  
+  
+}

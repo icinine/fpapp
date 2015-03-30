@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Final Project | HD Cloud | Shane Carr | 14120186</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<header class="navbar navbar-fixed-top navbar-defaul" ></header>
+<div class="container">
+  <%= link_to "MyRecipes", "", class: "btn btn-lg btn-success", id: "logo" %>
+  
+  <div class="nav_item">
+    <%= link_to "link1", "", class: "btn btn-danger" %>
+  </div>
+    <div class="nav_item">
+    <%= link_to "link1", "", class: "btn btn-danger" %>
+  </div>
+    <div class="nav_item">
+    <%= link_to "link1", "", class: "btn btn-danger" %>
+  </div>
+  
+</div>
+<%= yield %>
+
+</body>
+</html>
