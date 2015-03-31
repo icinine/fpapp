@@ -7,7 +7,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<header class="navbar navbar-fixed-top navbar-defaul" ></header>
+<header class="navbar navbar-fixed-top navbar-default" >
 <div class="container">
   <%= link_to "MyRecipes", "", class: "btn btn-lg btn-success", id: "logo" %>
   
@@ -22,7 +22,13 @@
   </div>
   
 </div>
-<%= yield %>
+</header>
 
+<div class="container">
+<%= yield %>
+<div class="footer">
+        <p>&copy; Contract Manager 2014</p>
+      </div>
+</div>
 </body>
 </html>

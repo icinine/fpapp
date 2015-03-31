@@ -6,6 +6,26 @@ $navbar-default-color: $light-orange;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+h1, h2, h3, h4 {
+line-height:1;
+  
+}
+
+h1{
+font-size: 3em;
+letter-spacing: -2px;
+margin-bottom:30px;
+text-align: center;
+font-weight: bold;
+}
+
+h2 {
+font-size: 2.2em;
+margin-bottom:30px;
+text-align: center;
+font-weight:normal;
+}
+
 #logo{
   margin-top:10px;
   margin-bottom: 10px;
@@ -16,4 +36,25 @@ $navbar-default-color: $light-orange;
   text-transform:uppercase;
   
   
+}
+
+body{
+  padding-top:80px;
+}
+
+.nav_item{
+  margin-left:25px;
+  float:left;
+  margin-top:20px;
+}
+
+.center{
+  
+  text-align: center;
+}
+
+.footer {
+  margin-top: 25px;
+  border-top: 1px solid #eaeaea;
+  color:#777;
 }
